@@ -29,4 +29,4 @@ text=input("Please enter a string of text (the bigger the better): ")
 l=int(len(text))
 
 for x in range(-1,-l-1,-1):
-     print(text[x], end=" ")
+     print(text[x], end="")
