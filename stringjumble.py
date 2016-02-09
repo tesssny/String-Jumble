@@ -30,3 +30,6 @@ l=int(len(text))
 
 for x in range(-1,-l-1,-1):
      print(text[x], end="")
+
+
+s=text.count(' ')
