@@ -31,5 +31,6 @@ l=int(len(text))
 for x in range(-1,-l-1,-1):
      print(text[x], end="")
 
-
+print("\n")
 s=text.count(' ')
+print(s)
