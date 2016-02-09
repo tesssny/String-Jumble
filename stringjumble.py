@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: <your name>
-Credit: <sources>
+Credit: Avery Wallis, Adam Glueck
 
 Assignment:
 
@@ -26,5 +26,7 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 text=input("Please enter a string of text (the bigger the better): ")
-l=len(text)
-print(l)
+l=int(len(text))
+
+for x in range(-1,-l-1,-1):
+     print(text[x], end=" ")
