@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Tess Snyder
-Credit: Avery Wallis, Adam Glueck
+Credit: Avery Wallis, Adam Glueck, Dan the Man
 
 Assignment:
 
@@ -32,5 +32,10 @@ for x in range(-1,-l-1,-1):
      print(text[x], end="")
 
 print("\n")
-s=text.count(' ')
-print(s)
+
+list1=list(text)
+words=list1.split(' ')
+
+print("\n")
+
+
