@@ -1,6 +1,6 @@
 """
 stringjumble.py
-Author: <your name>
+Author: Tess Snyder
 Credit: Avery Wallis, Adam Glueck
 
 Assignment:
