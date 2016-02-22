@@ -47,5 +47,5 @@ for w in f:
         e=str(w[len(w)-g-1])
         print("{0}".format(e), end="")
         g=g+1
-    
+    print(" ", end="")
 
