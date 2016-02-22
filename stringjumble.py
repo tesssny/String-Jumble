@@ -31,7 +31,7 @@ l=int(len(text))
 for x in range(-1,-l-1,-1):
      print(text[x], end="")
 
-print("\n")
+print(" ")
 
 words=text.split(' ')
  
@@ -39,7 +39,7 @@ f=list(reversed(words))
 for w in f:
     print(w, end=" ")
 
-print("\n")
+print(" ")
 
 for w in words:
     g=0
