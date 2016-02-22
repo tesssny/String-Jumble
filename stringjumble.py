@@ -33,8 +33,11 @@ for x in range(-1,-l-1,-1):
 
 print("\n")
 
-list1=list(text)
-words=list1.split(' ')
+words=text.split(' ')
+ 
+f=list(reversed(words))
+for w in f:
+    print(w, end=" ")
 
 print("\n")
 
