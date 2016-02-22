@@ -44,7 +44,8 @@ print("\n")
 for w in f:
     g=0
     while g < len(w):
-        e=str(w[len(w)-1])
+        e=str(w[len(w)-g-1])
         print("{0}".format(e), end="")
-
+        g=g+1
+    
 
